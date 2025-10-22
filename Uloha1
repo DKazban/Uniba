@@ -1,1 +1,19 @@
+1
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-                                                                                                                                                                                                  -
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Pomocou operácie ** vieme vypočítať mocniny čísel. Ak je exponentom, napríklad zlomok 1/2 (alebo desatinné číslo 0.5), tak vypočítame druhú odmocninu čísla. Zapíš v Pythone:
+
+do premennej a1 priraď druhú odmocninu z 3
+
+do premennej a2 priraď tretinu tretej odmocniny z 5
+
+do premennej a3 priraď piatu mocninu piatej odmocniny z 1024
+
+do premennej a4 priraď desiatu odmocninu z dvadsiatej mocniny 2
+
+Hodnoty týchto štyroch premenných potom vypíš v tvare:
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
