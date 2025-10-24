@@ -51,3 +51,97 @@ Boris bude mať o rok 6
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+meno = input('zadaj meno: ')
+vek = int(input('zadaj vek: '))
+print(meno, 'má', vek, 'rokov')
+print(meno, 'bude mať o rok', vek + 1)
+print(meno, 'bude mať o 10 rokov', vek + 10)
+
+4
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-                                                                                                                                                                                                  -
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Napíš program, ktorý najprv prečíta do premennej txt nejaký text a potom ho pomocou jediného print vypíše do 10 riadkov pod seba. Premennú txt v príkaze print použi len raz. Zrejme využiješ operáciu viacnásobného zreťazenia (*) a tiež zreťazenia so špeciálnym znakom '\n'. Po spustení môžeš dostať:
+
+zadaj text: programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+programujem v Pythone
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pi = 3.14159
+r = float(input('zadaj polomer: '))
+print('obvod je', 2 * pi * r)
+print('obsah je', pi * r ** 2)
+
+a = float(input('zadaj veľkosť strany kocky: '))
+print('stenová uhlopriečka je', round(a * 2 ** 0.5, 2))
+print('telesová uhlopriečka je', round(a * 3 ** 0.5, 2))
+
+5
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-                                                                                                                                                                                                  -
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Euro je zavedené na Slovensku od 1. januára 2009. Zisti, koľko približne dní od vtedy uplynulo (do dnes uplynulo 16 rokov, 8 mesiacov a 22 dní). Predpokladaj, že každý rok má 365 dní a každý mesiac má 30 dní. Potom vypočítaj koľko je to hodín a aj sekúnd. Po spustení môžeš dostať:
+
+počet dní je ????
+počet hodín je ?????
+počet sekúnd je ?????????
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+text = input('zadaj text: ')
+print((text + '\n') * 9 + text)
+
+
+6
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-                                                                                                                                                                                                  -
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Do jedného bajtu (8 bitov) môžeme zapísať čísla od 0 do 255. 
+Keď máme dvojbajtovú pamäť, môžeme sem zapísať číslo od 0 až do 256*256-1. 
+Do trojbajtovej pamäte sa zmestí číslo do 256*256*256-1. 
+Napíš program, ktorému zadáme počet bajtov a ten potom vypíše maximálne číslo, ktoré sa dá zapísať do takejto pamäte. 
+Program vyskúšaj pre rôzne počty bajtov
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+dni = 365 * 16 + 8 * 30 + 21
+print('počet dní je', dni)
+hodin = dni * 24
+sekund = hodin * 3600
+print('počet hodín je', hodin)
+print('počet sekúnd je', sekund)
+
+
+7
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-                                                                                                                                                                                                  -
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+V jednom starodávnom príbehu sa na políčka šachovnice kládli zrniečka ryže: 
+na 1. políčko 1 zrnko ryže, na ďalšie 2, na každom ďalšom je dvojnásobok predchádzajúceho. 
+Napíš program, ktorý vypíše, koľko zrniek bude na n-tom políčku
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pocet = int(input('zadaj počet bajtov: '))
+max = 256 ** pocet - 1
+print('maximálna hodnota je', max)
+
+
